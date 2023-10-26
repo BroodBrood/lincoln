@@ -1,0 +1,143 @@
+body {
+  overflow: hidden;
+      background-color: rgb(85, 85, 85);
+      width: 100%;
+      height: 100%;
+      max-width: 1080px;
+      max-height: 1920px
+
+  };
+
+  
+  
+  div.absolute {
+   position:relative;
+      height: 30px;
+      width: 30px;
+  }
+  
+  .rectangle {
+      position: absolute;
+      width: 115%;
+          height:60%;
+          background-color: #2eb3bd;
+      margin-top: 12.5%;
+      margin-left: -5%;
+     
+    }
+  .foto1 {
+      position: absolute;
+    margin-left:0% ;
+    margin-top:20% ;
+  
+  }
+  .foto2 {
+  
+      position: absolute;
+     margin-left:-3%;
+     margin-top: 11%;
+  }
+  
+  .foto3 {
+  
+      position: absolute;
+      margin-left: 35%;
+     
+      margin-top: -2%;
+  }
+  
+  .foto4 {
+      position: absolute;
+      margin-left: 25%;
+      margin-top: 35%;
+      
+  }
+  
+  .click {
+      position: absolute;
+      margin-left: 90%;
+      margin-top: 42%;
+      z-index: 1;
+      
+       }
+      
+  .click {
+      animation: anim 1s ease infinite;
+  }
+  
+      
+   @keyframes anim {
+    0% {
+      transform:scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform:scale(1, 1);
+    }
+   }
+  
+  
+  
+  .blur {
+     position:absolute;
+     margin-left: -1%;
+     margin-top: -1%;
+  }
+  
+  .blur2 {
+      position:absolute;
+      margin-left: -1%;
+      margin-top: -1%;
+          opacity: 0.5;
+   }
+    
+  .text1 {
+      position:absolute;
+      margin-left: 77%;
+      margin-top: 45%;
+      font-size: 30px;
+      color: rgb(243, 0, 252);
+      
+  }
+
+  .text2 {
+    position:absolute;
+    margin-left: 5%;
+    margin-top: 0%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.text3  {
+
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 25%;
+  color: white;
+  font-size: 20px;
+}
+  
+
+.Jochum {
+
+  position:absolute;
+  margin-left: 80%;
+  margin-top: 0%;
+  width: 100px;
+  height: 30px;
+  background-color: pink;
+  border-color: #2eb3bd;
+  }
+  
+.Carlito {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 0%;
+    width: 100px;
+  height: 30px;
+  background-color: pink;
+  border-color: #2eb3bd;
+  }
